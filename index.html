@@ -1,0 +1,1033 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynara Devina Jihanda – Personal Portfolio</title>
+    <meta name="description" content="Professional personal portfolio website of Dynara Devina Jihanda, Digital Business student combining business acumen with digital technology and practical web solutions." />
+    <meta property="og:title" content="Dynara Devina Jihanda – Personal Portfolio" />
+    <meta property="og:description" content="Business student passionate about combining business knowledge with digital technology, web development, and creative problem-solving." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Google Fonts: Poppins (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet" />
+
+    <!-- Theme Stylesheet -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body id="top">
+    <!-- ====================================================================
+         1. NAVBAR / HEADER
+         ==================================================================== -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="#hero" class="nav-brand" id="nav-brand-link" aria-label="Dynara Devina Home">
+          <span class="brand-dot" aria-hidden="true"></span>
+          <span>Dynara Devina</span>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="nav-links" id="desktop-nav-menu" aria-label="Main Navigation">
+          <a href="#hero" class="nav-link active" id="nav-link-home">Home</a>
+          <a href="#about" class="nav-link" id="nav-link-about">About</a>
+          <a href="#skills" class="nav-link" id="nav-link-skills">Skills</a>
+          <a href="#services" class="nav-link" id="nav-link-services">Services</a>
+          <a href="#projects" class="nav-link" id="nav-link-projects">Projects</a>
+          <a href="#testimonials" class="nav-link" id="nav-link-testimonials">Testimonials</a>
+          <a href="#contact" class="nav-link" id="nav-link-contact">Contact</a>
+        </nav>
+
+        <!-- Navbar Actions (Theme Switcher, Contact CTA, Mobile Toggle) -->
+        <div class="nav-actions">
+          <!-- Dark / Light Mode Toggle -->
+          <button type="button" class="btn-icon-only theme-toggle-btn" id="theme-toggle" aria-label="Toggle dark or light mode" title="Toggle theme">
+            <!-- Sun Icon (shown in light mode) -->
+            <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <!-- Moon Icon (shown in dark mode) -->
+            <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+
+          <!-- Contact Me CTA Button -->
+          <a href="#contact" class="btn btn-primary btn-sm nav-contact-btn" id="btn-nav-contact">
+            <span>Contact Me</span>
+          </a>
+
+          <!-- Mobile Hamburger Menu Button -->
+          <button type="button" class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation Menu">
+      <a href="#hero" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#services" class="nav-link">Services</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#testimonials" class="nav-link">Testimonials</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a href="#contact" class="btn btn-primary" style="margin-top: 8px;">Contact Me</a>
+    </div>
+
+    <!-- ====================================================================
+         2. HERO SECTION
+         ==================================================================== -->
+    <section class="hero-section" id="hero" aria-label="Introduction">
+      <div class="hero-glow-bg" aria-hidden="true"></div>
+
+      <div class="container hero-grid">
+        <!-- Left Side: Content & CTAs -->
+        <div class="hero-content reveal-item">
+          <div class="hero-badge">
+            <span class="pulse" aria-hidden="true"></span>
+            <span>Digital Business • Batch 4 • Semester 1</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Turning Business Ideas Into <span style="background: var(--grad-primary); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Digital Solutions.</span>
+          </h1>
+
+          <p class="hero-subheadline">
+            Business student with an interest in digital technology, web development, and practical business solutions.
+          </p>
+
+          <p class="hero-supporting">
+            Hi, I’m Dynara Devina Jihanda. I am a business student passionate about combining business knowledge with digital technology and creative problem-solving.
+          </p>
+
+          <div class="hero-cta-group">
+            <button type="button" class="btn btn-primary btn-download-cv" id="hero-btn-download-cv">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download CV</span>
+            </button>
+
+            <a href="#projects" class="btn btn-secondary" id="hero-btn-view-projects">
+              <span>View My Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Side: Professional Profile Placeholder / Avatar Card -->
+        <div class="hero-visual reveal-item">
+          <div class="avatar-wrapper">
+            <div class="avatar-card">
+              <div class="avatar-backdrop-glow" aria-hidden="true"></div>
+
+              <!-- Professional Student Portrait Illustration (SVG) -->
+              <svg class="avatar-graphic" viewBox="0 0 340 400" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dynara Devina Jihanda Profile Illustration">
+                <defs>
+                  <linearGradient id="avatarSkin" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#FFDFC4" />
+                    <stop offset="100%" stop-color="#EAB896" />
+                  </linearGradient>
+                  <linearGradient id="avatarHair" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#2D1537" />
+                    <stop offset="100%" stop-color="#14081E" />
+                  </linearGradient>
+                  <linearGradient id="blazerGrad" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#7C3AED" />
+                    <stop offset="100%" stop-color="#4C1D95" />
+                  </linearGradient>
+                  <linearGradient id="innerShirt" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#FFFFFF" />
+                    <stop offset="100%" stop-color="#EDE9FE" />
+                  </linearGradient>
+                </defs>
+
+                <!-- Ambient Base Shadow -->
+                <ellipse cx="170" cy="385" rx="110" ry="12" fill="#0D0617" opacity="0.4" />
+
+                <!-- Hair Back Layer -->
+                <path d="M100 130 C75 180, 80 270, 95 310 C105 270, 115 210, 120 180 Z" fill="url(#avatarHair)" />
+                <path d="M240 130 C265 180, 260 270, 245 310 C235 270, 225 210, 220 180 Z" fill="url(#avatarHair)" />
+
+                <!-- Neck & Shoulders Base -->
+                <path d="M148 190 L192 190 L196 230 C196 240, 144 240, 144 230 Z" fill="url(#avatarSkin)" />
+
+                <!-- Business Attire: Professional Blazer & Inner Shirt -->
+                <!-- Shirt / Collar -->
+                <path d="M136 226 L204 226 L212 360 L128 360 Z" fill="url(#innerShirt)" />
+                <path d="M170 230 L154 260 L186 260 Z" fill="#DDD6FE" />
+
+                <!-- Suit Blazer -->
+                <path d="M110 240 L150 252 L144 380 L60 380 C60 320, 80 260, 110 240 Z" fill="url(#blazerGrad)" />
+                <path d="M230 240 L190 252 L196 380 L280 380 C280 320, 260 260, 230 240 Z" fill="url(#blazerGrad)" />
+
+                <!-- Lapels -->
+                <path d="M146 245 L170 310 L152 312 L132 254 Z" fill="#9333EA" />
+                <path d="M194 245 L170 310 L188 312 L208 254 Z" fill="#6B21A8" />
+
+                <!-- Head / Face -->
+                <ellipse cx="170" cy="155" rx="44" ry="52" fill="url(#avatarSkin)" />
+
+                <!-- Eyes & Eyebrows -->
+                <!-- Left Eyebrow & Eye -->
+                <path d="M140 138 Q152 135 158 140" stroke="#2D1537" stroke-width="2.5" stroke-linecap="round" />
+                <ellipse cx="150" cy="150" rx="4.5" ry="5.5" fill="#2D1537" />
+                <circle cx="152" cy="148" r="1.5" fill="#FFFFFF" />
+
+                <!-- Right Eyebrow & Eye -->
+                <path d="M182 140 Q188 135 200 138" stroke="#2D1537" stroke-width="2.5" stroke-linecap="round" />
+                <ellipse cx="190" cy="150" rx="4.5" ry="5.5" fill="#2D1537" />
+                <circle cx="192" cy="148" r="1.5" fill="#FFFFFF" />
+
+                <!-- Soft Blush -->
+                <circle cx="140" cy="164" r="7" fill="#F472B6" opacity="0.35" />
+                <circle cx="200" cy="164" r="7" fill="#F472B6" opacity="0.35" />
+
+                <!-- Nose & Smile -->
+                <path d="M170 152 Q173 162 168 165" stroke="#D39E7C" stroke-width="2" stroke-linecap="round" />
+                <path d="M160 176 Q170 184 180 176" stroke="#B91C1C" stroke-width="2.5" stroke-linecap="round" />
+
+                <!-- Front Hair / Fringe Style -->
+                <path d="M125 140 C125 90, 150 78, 170 78 C200 78, 220 95, 218 140 C212 118, 192 108, 170 108 C148 108, 132 120, 125 140 Z" fill="url(#avatarHair)" />
+                <path d="M126 130 C120 160, 126 210, 134 235 C138 215, 134 175, 132 148 Z" fill="url(#avatarHair)" />
+                <path d="M214 130 C220 160, 214 210, 206 235 C202 215, 206 175, 208 148 Z" fill="url(#avatarHair)" />
+
+                <!-- Subtle Modern Wireframe Glasses (Academic Touch) -->
+                <circle cx="149" cy="150" r="14" stroke="#C084FC" stroke-width="1.8" fill="rgba(192, 132, 252, 0.08)" />
+                <circle cx="191" cy="150" r="14" stroke="#C084FC" stroke-width="1.8" fill="rgba(192, 132, 252, 0.08)" />
+                <path d="M163 150 L177 150" stroke="#C084FC" stroke-width="1.8" />
+              </svg>
+
+              <!-- Bottom Overlay Caption -->
+              <div class="avatar-bottom-overlay">
+                <div class="avatar-name">Dynara Devina Jihanda</div>
+                <div class="avatar-role">Digital Business Scholar</div>
+              </div>
+            </div>
+
+            <!-- Floating Card 1 (Top Left) -->
+            <div class="floating-chip floating-chip-1" aria-hidden="true">
+              <div class="chip-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="chip-text">
+                <strong>NIM: 131620260010</strong>
+                <span>Batch 4 • Sem 1</span>
+              </div>
+            </div>
+
+            <!-- Floating Card 2 (Bottom Right) -->
+            <div class="floating-chip floating-chip-2" aria-hidden="true">
+              <div class="chip-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div class="chip-text">
+                <strong>Digital Solutions</strong>
+                <span>Tech & Business Strategy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         3. ABOUT ME SECTION
+         ==================================================================== -->
+    <section class="section-padding about-section" id="about" aria-label="About Me">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-eyebrow">Profile & Background</span>
+          <h2>About Me</h2>
+          <p class="section-subtitle">Bridging academic business foundations with practical technology execution.</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Bio & Profile Information -->
+          <div class="about-text-content reveal-item">
+            <p>
+              I am Dynara Devina Jihanda, a business student interested in the intersection between business and digital technology. I enjoy learning how technology can be used to solve practical problems, improve user experiences, and support business objectives.
+            </p>
+            <p>
+              Through my academic activities and projects, I continue developing skills in business analysis, digital technology, web development, presentation, and creative problem-solving.
+            </p>
+
+            <!-- Key Information Badges / Meta Grid -->
+            <div class="about-meta-grid">
+              <div class="meta-item-card">
+                <div class="meta-label">Student ID (NIM)</div>
+                <div class="meta-val">131620260010</div>
+              </div>
+              <div class="meta-item-card">
+                <div class="meta-label">Academic Status</div>
+                <div class="meta-val">Business Student</div>
+              </div>
+              <div class="meta-item-card">
+                <div class="meta-label">Class / Cohort</div>
+                <div class="meta-val">Digital Business / Batch 4 / Sem 1</div>
+              </div>
+              <div class="meta-item-card">
+                <div class="meta-label">Core Interests</div>
+                <div class="meta-val">Business & Digital Tech</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Animated Skill Progress Indicators -->
+          <div class="skills-progress-card reveal-item" id="skills">
+            <h3>
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--bright-purple)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+              <span>Competency & Skill Indicators</span>
+            </h3>
+
+            <!-- Skill 1 -->
+            <div class="skill-bar-group">
+              <div class="skill-info">
+                <span class="skill-name">Business & Management</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="progress-track" aria-hidden="true">
+                <div class="progress-fill" data-width="80" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="skill-bar-group">
+              <div class="skill-info">
+                <span class="skill-name">HTML & CSS</span>
+                <span class="skill-pct">85%</span>
+              </div>
+              <div class="progress-track" aria-hidden="true">
+                <div class="progress-fill" data-width="85" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="skill-bar-group">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-pct">75%</span>
+              </div>
+              <div class="progress-track" aria-hidden="true">
+                <div class="progress-fill" data-width="75" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="skill-bar-group">
+              <div class="skill-info">
+                <span class="skill-name">Data Analysis</span>
+                <span class="skill-pct">70%</span>
+              </div>
+              <div class="progress-track" aria-hidden="true">
+                <div class="progress-fill" data-width="70" style="width: 0%;"></div>
+              </div>
+            </div>
+
+            <!-- Skill 5 -->
+            <div class="skill-bar-group">
+              <div class="skill-info">
+                <span class="skill-name">Communication & Presentation</span>
+                <span class="skill-pct">80%</span>
+              </div>
+              <div class="progress-track" aria-hidden="true">
+                <div class="progress-fill" data-width="80" style="width: 0%;"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         4. SKILLS & SERVICES SECTION
+         ==================================================================== -->
+    <section class="section-padding services-section" id="services" aria-label="Skills and Services">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-eyebrow">Capabilities</span>
+          <h2>Skills & What I Can Do</h2>
+          <p class="section-subtitle">Delivering pragmatic outcomes by aligning analytical business foundations with front-end digital crafts.</p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1: Business Analysis -->
+          <article class="service-card reveal-item" id="service-card-business-analysis">
+            <div class="service-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Business Analysis</h3>
+            <p class="service-desc">
+              Understanding business problems, organizing information, and developing practical insights to support decision-making.
+            </p>
+          </article>
+
+          <!-- Card 2: Web Development -->
+          <article class="service-card reveal-item" id="service-card-web-development">
+            <div class="service-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3 class="service-title">Web Development</h3>
+            <p class="service-desc">
+              Creating responsive and user-friendly front-end websites using HTML, CSS, and JavaScript.
+            </p>
+          </article>
+
+          <!-- Card 3: Digital Solutions -->
+          <article class="service-card reveal-item" id="service-card-digital-solutions">
+            <div class="service-icon-box" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+            </div>
+            <h3 class="service-title">Digital Solutions</h3>
+            <p class="service-desc">
+              Combining business concepts and digital technology to create practical and engaging solutions.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         5. PROJECTS / PORTFOLIO SECTION
+         ==================================================================== -->
+    <section class="section-padding projects-section" id="projects" aria-label="Featured Projects">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-eyebrow">Work & Case Studies</span>
+          <h2>Featured Projects</h2>
+          <p class="section-subtitle">Practical digital works developed to synthesize technical proficiency and business concepts.</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Personal Portfolio Website -->
+          <article class="project-card reveal-item" id="project-card-portfolio">
+            <div class="project-thumbnail" aria-hidden="true">
+              <svg viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="250" fill="#1B0F2E" />
+                <rect x="20" y="20" width="360" height="210" rx="10" fill="#24143D" stroke="#3B245A" stroke-width="2" />
+                <!-- Mockup Browser Bar -->
+                <rect x="20" y="20" width="360" height="32" rx="10" fill="#2E1A4E" />
+                <circle cx="42" cy="36" r="4" fill="#EF4444" />
+                <circle cx="56" cy="36" r="4" fill="#EAB308" />
+                <circle cx="70" cy="36" r="4" fill="#22C55E" />
+                <rect x="94" y="28" width="180" height="16" rx="8" fill="#1B0F2E" />
+                <!-- Content Wireframe -->
+                <rect x="40" y="74" width="160" height="18" rx="4" fill="#7C3AED" />
+                <rect x="40" y="102" width="220" height="10" rx="3" fill="#9183A8" opacity="0.6" />
+                <rect x="40" y="120" width="180" height="10" rx="3" fill="#9183A8" opacity="0.4" />
+                <rect x="40" y="150" width="90" height="28" rx="6" fill="#A855F7" />
+                <!-- Hero Graphic Mockup -->
+                <circle cx="310" cy="120" r="42" fill="#7C3AED" opacity="0.25" />
+                <circle cx="310" cy="120" r="28" fill="#C084FC" opacity="0.5" />
+                <rect x="270" y="174" width="80" height="18" rx="9" fill="#3B245A" />
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Personal Portfolio Website</h3>
+              <p class="project-desc">
+                A responsive single-page personal portfolio designed to present personal information, skills, projects, and contact information in a professional digital format.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-footer">
+                <button type="button" class="btn-details btn-view-project" data-project="portfolio" id="btn-view-portfolio">
+                  <span>View Details</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 16 16 12 12 8"></polyline>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Business Data Dashboard -->
+          <article class="project-card reveal-item" id="project-card-dashboard">
+            <div class="project-thumbnail" aria-hidden="true">
+              <svg viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="250" fill="#1B0F2E" />
+                <rect x="20" y="20" width="360" height="210" rx="10" fill="#24143D" stroke="#3B245A" stroke-width="2" />
+                <!-- Mockup Metrics Grid -->
+                <rect x="36" y="38" width="94" height="48" rx="8" fill="#2E1A4E" stroke="#3B245A" />
+                <rect x="46" y="48" width="40" height="8" rx="2" fill="#9183A8" />
+                <rect x="46" y="62" width="60" height="14" rx="3" fill="#22C55E" />
+
+                <rect x="142" y="38" width="94" height="48" rx="8" fill="#2E1A4E" stroke="#3B245A" />
+                <rect x="152" y="48" width="40" height="8" rx="2" fill="#9183A8" />
+                <rect x="152" y="62" width="60" height="14" rx="3" fill="#A855F7" />
+
+                <rect x="248" y="38" width="112" height="48" rx="8" fill="#2E1A4E" stroke="#3B245A" />
+                <rect x="258" y="48" width="50" height="8" rx="2" fill="#9183A8" />
+                <rect x="258" y="62" width="70" height="14" rx="3" fill="#7C3AED" />
+
+                <!-- Mockup Chart Bar Lines -->
+                <rect x="36" y="102" width="324" height="110" rx="8" fill="#1A0D2D" stroke="#3B245A" />
+                <path d="M50 180 L100 150 L150 165 L200 130 L250 145 L300 115 L340 125" stroke="#7C3AED" stroke-width="3" stroke-linecap="round" fill="none" />
+                <path d="M50 180 L100 150 L150 165 L200 130 L250 145 L300 115 L340 125 L340 195 L50 195 Z" fill="url(#chartGradMock)" opacity="0.15" />
+                <defs>
+                  <linearGradient id="chartGradMock" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stop-color="#A855F7" />
+                    <stop offset="100%" stop-color="#24143D" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Business Data Dashboard</h3>
+              <p class="project-desc">
+                A conceptual dashboard designed to organize and visualize business-related information in a clear and accessible interface.
+              </p>
+              <div class="project-tags">
+                <span class="tag">Data Visualization</span>
+                <span class="tag">UI Design</span>
+                <span class="tag">Business Analytics</span>
+              </div>
+              <div class="project-footer">
+                <button type="button" class="btn-details btn-view-project" data-project="dashboard" id="btn-view-dashboard">
+                  <span>View Details</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 16 16 12 12 8"></polyline>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3: Business Landing Page -->
+          <article class="project-card reveal-item" id="project-card-landing">
+            <div class="project-thumbnail" aria-hidden="true">
+              <svg viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="400" height="250" fill="#1B0F2E" />
+                <rect x="20" y="20" width="360" height="210" rx="10" fill="#24143D" stroke="#3B245A" stroke-width="2" />
+                <!-- Hero Header mock -->
+                <rect x="40" y="44" width="320" height="16" rx="4" fill="#E9D5FF" />
+                <rect x="70" y="68" width="260" height="10" rx="3" fill="#9183A8" opacity="0.6" />
+                <!-- CTA buttons mock -->
+                <rect x="140" y="90" width="120" height="26" rx="6" fill="#7C3AED" />
+                <!-- Feature 3-cards mock -->
+                <rect x="40" y="132" width="94" height="80" rx="8" fill="#1A0D2D" stroke="#3B245A" />
+                <circle cx="87" cy="154" r="10" fill="#A855F7" />
+                <rect x="52" y="174" width="70" height="8" rx="2" fill="#EDE9FE" />
+                <rect x="52" y="188" width="50" height="6" rx="2" fill="#9183A8" />
+
+                <rect x="146" y="132" width="94" height="80" rx="8" fill="#1A0D2D" stroke="#7C3AED" />
+                <circle cx="193" cy="154" r="10" fill="#7C3AED" />
+                <rect x="158" y="174" width="70" height="8" rx="2" fill="#EDE9FE" />
+                <rect x="158" y="188" width="50" height="6" rx="2" fill="#9183A8" />
+
+                <rect x="252" y="132" width="94" height="80" rx="8" fill="#1A0D2D" stroke="#3B245A" />
+                <circle cx="299" cy="154" r="10" fill="#C084FC" />
+                <rect x="264" y="174" width="70" height="8" rx="2" fill="#EDE9FE" />
+                <rect x="264" y="188" width="50" height="6" rx="2" fill="#9183A8" />
+              </svg>
+            </div>
+            <div class="project-body">
+              <h3 class="project-title">Business Landing Page</h3>
+              <p class="project-desc">
+                A modern landing page concept designed to communicate a business value proposition and guide visitors toward a clear call to action.
+              </p>
+              <div class="project-tags">
+                <span class="tag">HTML5</span>
+                <span class="tag">CSS3</span>
+                <span class="tag">Responsive Design</span>
+              </div>
+              <div class="project-footer">
+                <button type="button" class="btn-details btn-view-project" data-project="landing" id="btn-view-landing">
+                  <span>View Details</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 16 16 12 12 8"></polyline>
+                    <line x1="8" y1="12" x2="16" y2="12"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         6. TESTIMONIALS SECTION
+         ==================================================================== -->
+    <section class="section-padding testimonials-section" id="testimonials" aria-label="Testimonials">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-eyebrow">Feedback & Perspectives</span>
+          <h2>What People Say</h2>
+          <p class="section-subtitle">Academic perspectives reflecting work ethic, collaboration, and learning agility.</p>
+        </div>
+
+        <div class="testimonials-grid">
+          <!-- Card 1: Lecturer / Academic Mentor -->
+          <article class="testimonial-card reveal-item" id="testimonial-card-lecturer">
+            <span class="testimonial-badge">Sample Testimonial</span>
+            <div class="quote-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+            </div>
+            <p class="testimonial-quote">
+              “Dynara demonstrates a strong willingness to learn and consistently approaches projects with curiosity and responsibility.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-placeholder" aria-hidden="true">LM</div>
+              <div class="author-info">
+                <strong>Lecturer / Academic Mentor</strong>
+                <span>Department of Digital Business</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2: Project Teammate -->
+          <article class="testimonial-card reveal-item" id="testimonial-card-teammate">
+            <span class="testimonial-badge">Placeholder</span>
+            <div class="quote-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+            </div>
+            <p class="testimonial-quote">
+              “Collaborating with Dynara on team projects is smooth and organized. She bridges analytical thinking with practical front-end execution effectively.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-placeholder" aria-hidden="true">PT</div>
+              <div class="author-info">
+                <strong>Project Teammate</strong>
+                <span>Batch 4 Colleague</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3: Classmate -->
+          <article class="testimonial-card reveal-item" id="testimonial-card-classmate">
+            <span class="testimonial-badge">Sample Testimonial</span>
+            <div class="quote-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24">
+                <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+              </svg>
+            </div>
+            <p class="testimonial-quote">
+              “Her presentation style is clear, well-structured, and focused on practical solutions. Always reliable when tackling group assignments.”
+            </p>
+            <div class="testimonial-author">
+              <div class="author-avatar-placeholder" aria-hidden="true">CM</div>
+              <div class="author-info">
+                <strong>Classmate</strong>
+                <span>Digital Business Section</span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="testimonial-disclaimer">
+          * Note: The cards above are labeled as sample/placeholder testimonials for academic portfolio demonstration purposes.
+        </p>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         7. CONTACT FORM SECTION
+         ==================================================================== -->
+    <section class="section-padding contact-section" id="contact" aria-label="Contact Information and Form">
+      <div class="container">
+        <div class="section-header reveal-item">
+          <span class="section-eyebrow">Get In Touch</span>
+          <h2>Let’s Connect</h2>
+          <p class="section-subtitle">Have a project, collaboration idea, or question? Feel free to get in touch.</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Left: Contact Details & Channels -->
+          <div class="contact-info-panel reveal-item">
+            <p>
+              I am always keen to discuss new student projects, business technology case studies, internship opportunities, or collaborative digital ideas.
+            </p>
+
+            <div class="contact-channels">
+              <div class="channel-card">
+                <div class="channel-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span>Direct Email</span>
+                  <strong>dynara.devina@digitalbusiness.ac.id</strong>
+                </div>
+              </div>
+
+              <div class="channel-card">
+                <div class="channel-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span>Location</span>
+                  <strong>Indonesia (Campus & Remote)</strong>
+                </div>
+              </div>
+
+              <div class="channel-card">
+                <div class="channel-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                    <rect x="2" y="9" width="4" height="12"></rect>
+                    <circle cx="4" cy="4" r="2"></circle>
+                  </svg>
+                </div>
+                <div class="channel-details">
+                  <span>Professional Network</span>
+                  <strong>linkedin.com/in/dynara-devina</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Client-side Form Container -->
+          <div class="contact-form-container reveal-item">
+            <form id="contact-form" novalidate>
+              <!-- Field 1: Full Name -->
+              <div class="form-group">
+                <label class="form-label" for="name">
+                  Full Name <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  placeholder="e.g. Sarah Jenkins"
+                  required
+                  aria-required="true"
+                  aria-describedby="name-error"
+                />
+                <div class="form-error-msg" id="name-error" role="alert"></div>
+              </div>
+
+              <!-- Field 2: Email -->
+              <div class="form-group">
+                <label class="form-label" for="email">
+                  Email Address <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="e.g. sarah@example.com"
+                  required
+                  aria-required="true"
+                  aria-describedby="email-error"
+                />
+                <div class="form-error-msg" id="email-error" role="alert"></div>
+              </div>
+
+              <!-- Field 3: Project Scope -->
+              <div class="form-group">
+                <label class="form-label" for="scope">
+                  Project Scope <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <select id="scope" name="scope" class="form-select" required aria-required="true" aria-describedby="scope-error">
+                  <option value="" disabled selected>Select an area of interest...</option>
+                  <option value="business-analysis">Business Analysis & Strategy</option>
+                  <option value="web-development">Web Development & Front-End</option>
+                  <option value="digital-solutions">Digital Solutions & Prototyping</option>
+                  <option value="academic-collaboration">Academic Collaboration / Student Project</option>
+                  <option value="other">General Inquiry / Other</option>
+                </select>
+                <div class="form-error-msg" id="scope-error" role="alert"></div>
+              </div>
+
+              <!-- Field 4: Message -->
+              <div class="form-group">
+                <label class="form-label" for="message">
+                  Message <span class="required-star" aria-hidden="true">*</span>
+                </label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-textarea"
+                  rows="4"
+                  placeholder="Please write your collaboration idea, questions, or message..."
+                  required
+                  aria-required="true"
+                  aria-describedby="message-error"
+                ></textarea>
+                <div class="form-error-msg" id="message-error" role="alert"></div>
+              </div>
+
+              <button type="submit" class="btn btn-primary form-submit-btn" id="btn-submit-contact">
+                <span>Send Message</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <line x1="22" y1="2" x2="11" y2="13"></line>
+                  <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         8. FOOTER
+         ==================================================================== -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="footer-top">
+          <!-- Brand Column -->
+          <div class="footer-brand">
+            <h4>Dynara Devina</h4>
+            <p class="footer-desc">
+              Digital Business student passionate about fusing analytical business acumen with modern front-end digital solutions.
+            </p>
+            <div style="margin-top: 14px; font-size: 0.85rem; color: var(--soft-purple);">
+              NIM: 131620260010 • Digital Business Batch 4
+            </div>
+          </div>
+
+          <!-- Fast Links -->
+          <div class="footer-col">
+            <h5>Navigation</h5>
+            <div class="footer-links">
+              <a href="#hero">Home</a>
+              <a href="#about">About Me</a>
+              <a href="#skills">Skills & Services</a>
+              <a href="#projects">Featured Projects</a>
+              <a href="#testimonials">Testimonials</a>
+              <a href="#contact">Contact</a>
+            </div>
+          </div>
+
+          <!-- Social & Connect -->
+          <div class="footer-col">
+            <h5>Connect & Social</h5>
+            <div class="footer-links" style="margin-bottom: 16px;">
+              <a href="mailto:dynara.devina@digitalbusiness.ac.id">dynara.devina@digitalbusiness.ac.id</a>
+              <span>Academic Cohort: Semester 1</span>
+            </div>
+            <div class="footer-social-group">
+              <!-- LinkedIn -->
+              <a href="#contact" class="btn-icon-only" aria-label="LinkedIn Profile" title="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+              </a>
+              <!-- GitHub -->
+              <a href="#contact" class="btn-icon-only" aria-label="GitHub Repository" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+              </a>
+              <!-- Instagram -->
+              <a href="#contact" class="btn-icon-only" aria-label="Instagram Profile" title="Instagram">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>© 2026 Dynara Devina Jihanda. All Rights Reserved.</div>
+          <div style="font-size: 0.82rem; color: var(--text-muted);">
+            Designed with Modern Dark Purple Tech Aesthetic
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Floating Button -->
+    <button type="button" class="back-to-top-btn" id="back-to-top" aria-label="Back to top of page" title="Back to top">
+      <svg viewBox="0 0 24 24">
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
+
+    <!-- ====================================================================
+         MODAL 1: PROJECT DETAILS MODAL
+         ==================================================================== -->
+    <div class="modal-backdrop" id="project-modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title" aria-hidden="true">
+      <div class="modal-content">
+        <button type="button" class="modal-close-btn" id="close-project-modal" aria-label="Close project modal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <div class="modal-header">
+          <span class="tag" style="margin-bottom: 8px;">Case Study Overview</span>
+          <h3 class="modal-title" id="modal-project-title">Project Title</h3>
+          <div class="project-tags" id="modal-project-tags"></div>
+        </div>
+
+        <div class="modal-body-section">
+          <div class="modal-section-label">Project Objective</div>
+          <p class="modal-text" id="modal-project-objective"></p>
+        </div>
+
+        <div class="modal-body-section">
+          <div class="modal-section-label">Detailed Description</div>
+          <p class="modal-text" id="modal-project-desc"></p>
+        </div>
+
+        <div class="modal-body-section">
+          <div class="modal-section-label">Key Features & Architecture</div>
+          <ul class="modal-features-list" id="modal-project-features"></ul>
+        </div>
+
+        <div style="margin-top: 24px; text-align: right;">
+          <a href="#contact" class="btn btn-primary btn-sm" onclick="document.getElementById('project-modal').classList.remove('open');">
+            <span>Inquire About Similar Work</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         MODAL 2: CV DOWNLOAD & ACADEMIC RESUME MODAL
+         ==================================================================== -->
+    <div class="modal-backdrop" id="cv-modal" role="dialog" aria-modal="true" aria-labelledby="modal-cv-title" aria-hidden="true">
+      <div class="modal-content">
+        <button type="button" class="modal-close-btn" id="close-cv-modal" aria-label="Close CV modal">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <div class="modal-header">
+          <span class="tag" style="margin-bottom: 8px;">Curriculum Vitae</span>
+          <h3 class="modal-title" id="modal-cv-title">Dynara Devina Jihanda</h3>
+          <p style="color: var(--soft-purple); font-size: 0.95rem; font-weight: 500;">
+            Digital Business Student • NIM: 131620260010
+          </p>
+        </div>
+
+        <div class="modal-body-section" style="background: var(--bg-primary); padding: 18px; border-radius: var(--radius-md); border: 1px solid var(--border);">
+          <div class="modal-section-label">Profile Summary</div>
+          <p class="modal-text" style="font-size: 0.9rem; margin-bottom: 14px;">
+            A proactive business student combining business knowledge, digital skills, creativity, and front-end web development to create practical and user-friendly digital solutions.
+          </p>
+
+          <div class="modal-section-label">Academic Credentials</div>
+          <p class="modal-text" style="font-size: 0.88rem; margin-bottom: 14px;">
+            <strong>Bachelor of Digital Business (In Progress)</strong><br />
+            Batch 4 • Semester 1 • Student ID: 131620260010<br />
+            Relevant Coursework: Business Fundamentals, Web Development, Data Analytics, Digital Marketing, Management Principles.
+          </p>
+
+          <div class="modal-section-label">Core Competencies</div>
+          <div class="project-tags" style="margin-top: 6px;">
+            <span class="tag">Business Analysis (80%)</span>
+            <span class="tag">HTML & CSS (85%)</span>
+            <span class="tag">JavaScript (75%)</span>
+            <span class="tag">Data Analysis (70%)</span>
+            <span class="tag">Communication (80%)</span>
+          </div>
+        </div>
+
+        <div style="margin-top: 24px; display: flex; justify-content: flex-end; gap: 12px; flex-wrap: wrap;">
+          <button type="button" class="btn btn-primary" id="btn-download-pdf-action">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="6 9 6 2 18 2 18 9"></polyline>
+              <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+              <rect x="6" y="14" width="12" height="8"></rect>
+            </svg>
+            <span>Print / Save PDF</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         MODAL 3: CONTACT FORM SUCCESS MODAL
+         ==================================================================== -->
+    <div class="modal-backdrop" id="success-modal" role="dialog" aria-modal="true" aria-labelledby="success-modal-title" aria-hidden="true">
+      <div class="modal-content success-modal-card">
+        <button type="button" class="modal-close-btn" id="close-success-modal" aria-label="Close success dialog">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+
+        <div class="success-icon-box" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <polyline points="20 6 9 17 4 12"></polyline>
+          </svg>
+        </div>
+
+        <h3 id="success-modal-title" style="margin-bottom: 12px; color: var(--text-primary);">Message Received!</h3>
+        <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 1.05rem;">
+          Thank you! Your message has been received.
+        </p>
+        <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 28px;">
+          Dynara will review your inquiry and get back to you promptly.
+        </p>
+
+        <button type="button" class="btn btn-primary" onclick="document.getElementById('success-modal').classList.remove('open'); document.body.style.overflow = '';">
+          <span>Back to Portfolio</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Vanilla JavaScript File -->
+    <script type="module" src="./script.js"></script>
+  </body>
+</html>
